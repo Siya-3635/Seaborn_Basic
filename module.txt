@@ -1,0 +1,9 @@
+#Library modules
+import random as rd
+print(rd.random())
+print(rd.uniform(1.2,5.1))
+print(rd.randint(1,9))
+print(rd.randint(000000,999999))
+l=[10,30,60,90,20]
+rd.shuffle(l)
+print(l)

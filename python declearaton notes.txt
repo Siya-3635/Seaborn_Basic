@@ -1,0 +1,24 @@
+# to find the class of the veriablewhich we take
+i=10
+print(i)
+print(type(i))
+------------------------
+#to give input from the user
+x=int (input("enter the number: "))
+print(x)
+---------------------------------
+#set operation
+s={1,2,2,4,5,6,5}
+print(type(s))
+print(s)
+s.add(50)
+print(s)
+s.remove(2)
+print(s)
+s.pop()
+print(s)
+====================================
+# __namespace__=='__main__
+  in scripted program whatever you dont want in the o/p then put
+  if(__namespace__=='__main__'):
+  it will block the farther content while calling the script in another module

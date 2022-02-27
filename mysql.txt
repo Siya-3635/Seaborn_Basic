@@ -1,0 +1,8 @@
+from pymysql import *
+con=connect(host='localhost',port=3306,user='root',passward='root' ,database='2to330')
+cursor=con.cursor()
+cursor.execute("insert into student values(5,'c',600)")
+con.commit()
+con.close()
+print('row inserted')
+------------------------------------------------------------------------------
